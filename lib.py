@@ -13,9 +13,9 @@ def lin_fun(x_ch, a, b):
     return a * x_ch + b
 
 
-def log_fun(x_ch, a, b, c): 
+def exp_fun(x_ch, a, b, c): 
     
-    """Logarithmic function (suggested by the authors)"""
+    """Exponential function (suggested by the authors)"""
     
     return a * np.exp(-b * x_ch) + c 
 
